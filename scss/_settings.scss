@@ -116,15 +116,15 @@ $font-family-serif: anke, Georgia, Cambria, "Times New Roman", Times, serif;
 // $black       : #000000;
 
 // We use these as default colors throughout
-// $primary-color: #008CBA;
-// $secondary-color: #e7e7e7;
+$primary-color: #31FFF5;
+$secondary-color: #31CCC5;
 // $alert-color: #f04124;
 // $success-color: #43AC6A;
 // $warning-color: #f08a24;
 // $info-color: #a0d3e8;
 
 // We use these to control various global styles
-$body-bg: #31FFF5;
+$body-bg: $primary-color;
 $body-font-color: black;
 // $body-font-family: $font-family-sans-serif;
 // $body-font-weight: $font-weight-normal;
@@ -951,7 +951,7 @@ $body-font-color: black;
 // $include-html-panel-classes: $include-html-classes;
 
 // We use these to control the background and border styles
-// $panel-bg: scale-color($white, $lightness: -5%);
+$panel-bg: scale-color($secondary-color, $lightness: -5%);
 // $panel-border-style: solid;
 // $panel-border-size: 1px;
 
