@@ -1,33 +1,27 @@
-<!DOCTYPE html>
-<html lang="fr">
+<!doctype html>
+<html class="no-js" lang="fr">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>En Vogue | Institut de Beaut&eacute;</title>
-<style type="text/css">
-/* <![CDATA[ */
-@font-face {
-    font-family: anke;
-    src: url(AnkeCall.ttf);
-}
-body {
-    font-family: anke, 'Lucida Grande', Verdana, Arial, sans-serif;
-    color: black;
-    background-color: #31FFF5;
-    text-align: center;
-}
-h3 {
-    text-decoration: underline;
-}
-ul.pricelist li {
-    list-style-type: none;
-}
-div.price {
-    display: inline;
-    color: grey;
-}
-
-/* ]]> */
-</style>
+  <style type="text/css">
+    @font-face {
+      font-family: anke;
+      src: url(AnkeCall.ttf);
+    }
+    h3 {
+      text-decoration: underline;
+    }
+    ul.pricelist li {
+      list-style-type: none;
+    }
+    div.price {
+      display: inline;
+      color: grey;
+    }
+  </style>    
+  <link rel="stylesheet" href="stylesheets/app.css" />
+  <script src="bower_components/modernizr/modernizr.js"></script>
 </head>
 <body>
   <h1>En Vogue<br>Institut de Beaut&eacute;</h1>
@@ -209,6 +203,10 @@ div.price {
       </li>
     </ul>
   </div>
+
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/foundation/js/foundation.min.js"></script>
+  <script src="js/app.js"></script>
 
 </body>
 </html>
