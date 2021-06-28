@@ -118,6 +118,7 @@ $font-family-serif: anke, Georgia, Cambria, "Times New Roman", Times, serif;
 // We use these as default colors throughout
 $primary-color: #31FFF5;
 $secondary-color: #31CCC5;
+$anchor-color: #31CCC5;
 // $alert-color: #f04124;
 // $success-color: #43AC6A;
 // $warning-color: #f08a24;
@@ -255,8 +256,8 @@ $body-font-color: black;
 // We use these to style anchors
 // $anchor-text-decoration: none;
 // $anchor-text-decoration-hover: none;
-// $anchor-font-color: $primary-color;
-// $anchor-font-color-hover: scale-color($primary-color, $lightness: -14%);
+$anchor-font-color: $anchor-color;
+$anchor-font-color-hover: scale-color($anchor-color, $lightness: -14%);
 
 // We use these to style the <hr> element
 // $hr-border-width: 1px;
